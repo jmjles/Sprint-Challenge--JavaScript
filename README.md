@@ -29,14 +29,34 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+forEach executes a function for every array while map does the same but return the results in an array.
+
 
 2. What is the difference between a function and a method?
+A function can be invoked by its name while a method is nested in an object.
+
 
 3. What is closure?
 
+
+
 4. Describe the four rules of the 'this' keyword.
 
+### Window
+Window binding binds this to the global scope.(in browser, its window)
+
+### Implicit
+This is refering to whatever is left of the dot.
+
+### Explicit
+Is refered to an external element which is the first parameter of call, apply, and bind  
+
+### New
+Refers to whatever is being created.
+
 5. Why do we need super() in an extended class?
+Super brings in props of the parent class and allows us to use .this
+
 
 ## Project Set up
 
